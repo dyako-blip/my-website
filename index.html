@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <title>فرۆشتنی کاڵا</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9fafb;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #0088cc, #005577);
+      color: #fff;
+      padding: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .info {
+      padding: 15px;
+      text-align: center;
+    }
+    .info h2 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .info p {
+      font-size: 16px;
+      color: #444;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      background: #0088cc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: 0.2s;
+    }
+    .btn:hover {
+      background: #005577;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f1f1f1;
+      margin-top: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🛍️ فرۆشتنی کاڵا
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="product1.jpg" alt="کاڵای یەکەم">
+      <div class="info">
+        <h2>کاڵای یەکەم</h2>
+        <p>نرخی: 20,000 دینار</p>
+        <a class="btn" href="https://t.me/YourUserName" target="_blank">کڕین</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product2.jpg" alt="کاڵای دووەم">
+      <div class="info">
+        <h2>کاڵای دووەم</h2>
+        <p>نرخی: 35,000 دینار</p>
+        <a class="btn" href="https://t.me/YourUserName" target="_blank">کڕین</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product3.jpg" alt="کاڵای سێیەم">
+      <div class="info">
+        <h2>کاڵای سێیەم</h2>
+        <p>نرخی: 50,000 دینار</p>
+        <a class="btn" href="https://t.me/YourUserName" target="_blank">کڕین</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 - هەموو مافەکانی پارێزراون - دروستکراوە بۆ فرۆشتنی کاڵا
+  </footer>
+</body>
+</html>
