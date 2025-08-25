@@ -1,117 +1,136 @@
 <!DOCTYPE html>
-<html lang="ku">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>فرۆشتنی کاڵا</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Trader Bot - Automated Trading Solutions</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9fafb;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: linear-gradient(90deg, #0088cc, #005577);
-      color: #fff;
-      padding: 25px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 30px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .product {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s ease-in-out;
-    }
-    .product:hover {
-      transform: translateY(-5px);
-    }
-    .product img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-    .info {
-      padding: 15px;
-      text-align: center;
-    }
-    .info h2 {
-      font-size: 20px;
-      margin: 10px 0;
-    }
-    .info p {
-      font-size: 16px;
-      color: #444;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      margin-top: 15px;
-      background: #0088cc;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 16px;
-      transition: 0.2s;
-    }
-    .btn:hover {
-      background: #005577;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #f1f1f1;
-      margin-top: 20px;
-      color: #333;
-    }
+    body { font-family: 'Segoe UI', sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
+    header { background:linear-gradient(135deg,#0d6efd,#6610f2); color:white; padding:80px 20px; text-align:center; }
+    header h1 { font-size:2.5rem; margin-bottom:10px; }
+    header p { font-size:1.2rem; margin-bottom:20px; }
+    .btn { background:#ffc107; color:#000; padding:12px 25px; border-radius:8px; text-decoration:none; font-weight:bold; }
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
+    h2 { text-align:center; margin-bottom:30px; font-size:2rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
+    .card { background:white; padding:25px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.1); text-align:center; }
+    .card img { width:100%; height:200px; object-fit:cover; border-radius:10px; margin-bottom:15px; }
+    footer { background:#212529; color:white; text-align:center; padding:20px; margin-top:40px; }
   </style>
 </head>
 <body>
-  <header>
-    🛍️ فرۆشتنی کاڵا
-  </header>
 
-  <div class="container">
-    <div class="product">
-      <img src="product1.jpg" alt="کاڵای یەکەم">
-      <div class="info">
-        <h2>کاڵای یەکەم</h2>
-        <p>نرخی: 20,000 دینار</p>
-        <a class="btn" href="https://t.me/kozan890" target="_blank">کڕین</a>
-      </div>
+<header>
+  <h1>Pro Trader Bot</h1>
+  <p>Smart, Automated Trading for MetaTrader 4 & 5</p>
+  <a href="#pricing" class="btn">Get Started</a>
+</header>
+
+<section id="features">
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Automated Trading</h3>
+      <p>Execute trades 24/7 with no emotions involved. Let the bot follow proven strategies.</p>
     </div>
-<br>
-    <div class="product">
-      <img src="product2.jpg" alt="کاڵای دووەم">
-      <div class="info">
-        <h2>کاڵای دووەم</h2>
-        <p>نرخی: 35,000 دینار</p>
-        <a class="btn" href="https://t.me/kozan890" target="_blank">کڕین</a>
-      </div>
+    <div class="card">
+      <h3>Risk Management</h3>
+      <p>Built-in stop-loss and take-profit mechanisms for smarter, safer trades.</p>
     </div>
-<br>
-    <div class="product">
-      <img src="product3.jpg" alt="کاڵای سێیەم">
-      <div class="info">
-        <h2>کاڵای سێیەم</h2>
-        <p>نرخی: 50,000 دینار</p>
-        <a class="btn" href="https://t.me/kozan890" target="_blank">کڕین</a>
-      </div>
+    <div class="card">
+      <h3>Cross-Broker Compatible</h3>
+      <p>Works with all MT4/MT5 brokers with minimal setup required.</p>
+    </div>
+    <div class="card">
+      <h3>Performance Reports</h3>
+      <p>Daily and weekly reports to help you monitor your trading progress.</p>
     </div>
   </div>
+</section>
 
-  <footer>
-    © 2025 - هەموو مافەکانی پارێزراون - دروستکراوە بۆ فرۆشتنی کاڵا
-  </footer>
+<section id="how-it-works">
+  <h2>How It Works</h2>
+  <div class="card">
+    <p>1. Purchase a license and download the bot.<br>
+       2. Install it on your MetaTrader platform.<br>
+       3. Adjust risk settings to match your trading style.<br>
+       4. Let the bot trade automatically for you.</p>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Pricing Plans</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="bot.jpg" alt="Monthly Bot">
+      <h3>Gold Trader</h3>
+      <p><strong>$25</strong>/month</p>
+      <a href="#contact" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <img src="bot.jpg" alt="Monthly Bot">
+      <h3>Smart Market </h3>
+      <p><strong>$50</strong>/month</p>
+      <a href="#contact" class="btn">Buy Now</a>
+    </div>
+
+    <div class="card">
+      <img src="bot.jpg" alt="Monthly Bot">
+      <h3>Cash Flow Bot </h3>
+      <p><strong>$100</strong> /month </p>
+      <a href="#contact" class="btn">Buy Now</a>
+
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>What Our Users Say</h2>
+  <div class="grid">
+    <div class="card">
+      <p>"This bot has completely changed my trading journey. Highly recommended!"</p>
+      <strong>- John D.</strong>
+    </div>
+    <div class="card">
+      <p>"Easy to use and very effective. My trades are much more consistent now."</p>
+      <strong>- Sarah L.</strong>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>Q:</strong> Do I need trading experience?<br>
+       <strong>A:</strong> Not necessarily. The bot is designed for both beginners and advanced traders.</p>
+    <p><strong>Q:</strong> Which brokers are supported?<br>
+       <strong>A:</strong> Any broker that supports MT4 or MT5 platforms.</p>
+    <p><strong>Q:</strong> Can I customize the strategy?<br>
+       <strong>A:</strong> Yes, risk levels and strategy parameters can be adjusted.</p>
+  </div>
+</section>
+<section id="faq">
+  <h2>AI Bot trader </h2>
+  <div class="card">
+    <p>These bots continuously receive up-to-date information and daily reports from the market.
+      <br>
+     They execute trades intelligently and efficiently, making decisions based on data and analysis 
+   to maximize profits.</p>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="card">
+    
+    <p>💬 Telegram: <a href="https://t.me/kozan890" target="_blank">@kozan890</a></p>
+    
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Pro Trader Bot - All rights reserved.</p>
+</footer>
+
 </body>
 </html>
