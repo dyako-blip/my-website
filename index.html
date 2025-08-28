@@ -9,12 +9,43 @@
     header { background:linear-gradient(135deg,#0d6efd,#6610f2); color:white; padding:80px 20px; text-align:center; }
     header h1 { font-size:2.5rem; margin-bottom:10px; }
     header p { font-size:1.2rem; margin-bottom:20px; }
-    .btn { background:#ffc107; color:#000; padding:12px 25px; border-radius:8px; text-decoration:none; font-weight:bold; }
+    .btn { 
+      background: gold;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    /* کاتێک ماوس دەچێتە سەر دوگمە */
+    .btn:hover {
+      background: green; /* دەبێتە سەوز */
+      color: white;
+    } 
     section { padding:60px 20px; max-width:1100px; margin:auto; }
     h2 { text-align:center; margin-bottom:30px; font-size:2rem; }
     .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; }
     .card { background:white; padding:25px; border-radius:12px; box-shadow:0 3px 10px rgba(0,0,0,0.1); text-align:center; }
-    .card img { width:100%; height:200px; object-fit:cover; border-radius:10px; margin-bottom:15px; }
+    .card2 img { width:100%; height:200px; object-fit:cover; border-radius:10px; margin-bottom:15px; }
+.card2 {
+      width: 300px;
+      display: inline-block;
+      padding: 15px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s ease; /* بۆ هەڵکێشان */
+    }
+
+    /* کاتێک ماوس دەچێتە سەر card */
+    .card2:hover {
+      transform: scale(1.05); /* گەورەتر دەبێت */
+    }
+
     footer { background:#212529; color:white; text-align:center; padding:20px; margin-top:40px; }
   </style>
 </head>
@@ -61,25 +92,46 @@
 <section id="pricing">
   <h2>Pricing Plans</h2>
   <div class="grid">
-    <div class="card">
+    <div class="card2">
    <img src="https://static.vecteezy.com/system/resources/previews/011/894/733/non_2x/artificial-intelligence-ai-robot-chat-bot-logo-template-free-vector.jpg" alt="Online photo" width="300">
       <h3>Gold Trader</h3>
+      <ul>
+        <li>Trade manually – choose Buy or Sell whenever you want</li>
+        <li>Supports automatic Stop Loss & Take Profit setup</li>
+        <li>Trailing Stop Loss – lock in profits and minimize losses</li>
+        <li>Works with any broker</li>
+       </ul>
+       <br>
       <p><strong>$25</strong>/month</p>
-      <a href="#contact" class="btn">Buy Now</a>
+      <a href="#contact2" class="btn">Buy Now</a>
     </div>
-
-    <div class="card">
+<div class="card2">
       <img src="https://static.vecteezy.com/system/resources/previews/011/894/733/non_2x/artificial-intelligence-ai-robot-chat-bot-logo-template-free-vector.jpg" alt="Online photo" width="300">
       <h3>Smart Market </h3>
-      <p><strong>$50</strong>/month</p>
-      <a href="#contact" class="btn">Buy Now</a>
+      <ul>
+        <li>Fully automated trading system.</li>
+        <li> Comes with Stop Loss & Take Profit.</li>
+        <li>Trailing Stop Loss – protects profits and reduces risk.</li>
+        <li>Works with a dedicated broker with 0% loss policy.</li>
+       </ul>
+       <br>
+       <br>
+      <p><strong>$50</strong>/month</p></p>
+      <a href="#contact2" class="btn">Buy Now</a>
     </div>
 
-    <div class="card">
+    <div class="card2">
       <img src="https://static.vecteezy.com/system/resources/previews/011/894/733/non_2x/artificial-intelligence-ai-robot-chat-bot-logo-template-free-vector.jpg" alt="Online photo" width="300">
       <h3>Cash Flow Bot </h3>
+      <ul>
+        <li> AI-powered automated trading for maximum efficiency..</li>
+        <li> Automatic Stop Loss & Take Profit.</li>
+        <li>Trailing Stop Loss – protects profits and reduces risk.</li>
+        <li>Integrated with a dedicated broker (max loss limited to 0.5%)</li>
+        <li>cans and analyzes all market news before entering trades.</li>
+       </ul>
       <p><strong>$100</strong> /month </p>
-      <a href="#contact" class="btn">Buy Now</a>
+      <a href="#contact2" class="btn">Buy Now</a>
 
     </div>
   </div>
@@ -98,6 +150,7 @@
     </div>
   </div>
 </section>
+
 <section id="faq">
   <h2>Frequently Asked Questions</h2>
   <div class="card">
@@ -118,12 +171,59 @@
    to maximize profits.</p>
   </div>
 </section>
-<section id="contact">
-  <h2>Contact Us</h2>
+<section id="faq">
+  <h2>How to Buy  </h2>
   <div class="card">
-    
-    <p>💬 Telegram: <a href="https://t.me/kozan890" target="_blank">@kozan890</a></p>
-    
+    <p>
+      Take a look at these steps to buy it.</p>
+      <p>1 - Send the money to this key to the OKX.</p>
+
+<p>2 - Send a picture of the money to the telegram.</p>
+<p>3 - When the bot looks at the bill of exchange and the payment, the bot sends you notes and how it works with the broker of the imaginary profit.</p>
+  </div>
+</section>
+<section id="contact2">
+  <div class="card3">
+   <div style="text-align: center; margin: 40px;">
+  <h2>Contact Us</h2>
+  
+  
+  <a href="https://t.me/kozan890" target="_blank" 
+     style="display: inline-flex; align-items: center; gap: 10px; 
+            background: #0088cc; color: white; 
+            padding: 12px 20px; border-radius: 8px; 
+            text-decoration: none; font-size: 18px; font-weight: bold;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" 
+         alt="Telegram" width="25" height="25">
+    @kozan890
+  </a>
+<!-- Wallet Section -->
+  <div style="margin-top: 30px;">
+    <h3>💳 Wallet Address</h3>
+    <p id="wallet" style="font-size: 16px; font-weight: bold;">
+      TCeXKE7QqNTWrtv3EssZhMvcApu2sE1RgJ
+    </p>
+    <button onclick="copyWallet()" 
+            style="padding: 10px 15px; background: #333; color: #fff; 
+                   border: none; border-radius: 6px; cursor: pointer;">
+      📋 Copy Wallet
+    </button>
+    <p id="msg" style="color: green; font-size: 14px;"></p>
+ 
+</div>
+
+<script>
+  function copyWallet() {
+    const wallet = document.getElementById("wallet").innerText;
+    navigator.clipboard.writeText(wallet).then(() => {
+      document.getElementById("msg").innerText = "✅ Copied to clipboard!";
+      setTimeout(() => {
+        document.getElementById("msg").innerText = "";
+      }, 2000);
+    });
+  }
+</script>
+</script>
   </div>
 </section>
 
